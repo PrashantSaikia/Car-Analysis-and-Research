@@ -1,4 +1,4 @@
-FROM python:3.13.1-slim-bullseye as install-browser
+FROM python:3.13.5-slim-bullseye as install-browser
 
 RUN apt-get update \
     && apt-get satisfy -y \
